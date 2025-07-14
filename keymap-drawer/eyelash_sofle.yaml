@@ -13,7 +13,7 @@ layers:
   - {t: '8', s: '*'}
   - {t: '9', s: (}
   - {t: '0', s: )}
-  - {t: '$$mdi:backspace$$', type: backspace}
+  - {t: '`', s: '~'}
   - $$mdi:keyboard-tab$$
   - Q
   - W
@@ -60,11 +60,11 @@ layers:
   - layer1
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - $$mdi:keyboard-space$$
+  - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - '2'
-  - $$mdi:apple-keyboard-shift$$
   - $$mdi:backspace-reverse-outline$$
+  - _
+  - '2'
   layer1:
   - {t: '`', s: '~'}
   - F1
@@ -86,21 +86,21 @@ layers:
   - $$mdi:mouse-right-click-outline$$
   - '&mkp MB4'
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
-  - PG UP
-  - END
-  - $$mdi:arrow-up-bold$$
   - HOME
+  - PG UP
+  - PG DN
+  - END
   - {t: '-', s: _}
   - {t: '=', s: +}
   - {t: '$$mdi:transfer$$', type: trans}
-  - '~'
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - RGB HUI
+  - RGB HUD
+  - RGB SAI
+  - RGB SAI
   - '&mkp MB5'
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
-  - PG DN
   - $$mdi:arrow-left-bold$$
+  - $$mdi:arrow-up-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
   - {t: \, s: '|'}
@@ -192,9 +192,9 @@ layers:
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
   '3':
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
