@@ -104,7 +104,7 @@ layers:
   - $$mdi:arrow-up-bold$$
   - $$mdi:arrow-right-bold$$
   - {t: INT3, s: INT3}
-  - '"'
+  - {t: '[', s: '{'}
   - {t: '$$mdi:transfer$$', type: trans}
   - RGB OFF
   - RGB ON
