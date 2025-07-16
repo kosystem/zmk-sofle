@@ -3,17 +3,17 @@ layers:
   LAYER0:
   - $$mdi:keyboard-esc$$
   - {t: '1', s: '!'}
-  - {t: '2', s: '@'}
+  - {t: '2', s: '['}
   - {t: '3', s: '#'}
   - {t: '4', s: $}
   - {t: '5', s: '%'}
   - $$mdi:arrow-up-bold$$
-  - {t: '6', s: ^}
-  - {t: '7', s: '&'}
-  - {t: '8', s: '*'}
-  - {t: '9', s: (}
-  - {t: '0', s: )}
-  - {t: '`', s: '~'}
+  - {t: '6', s: '='}
+  - {t: '7', s: '6'}
+  - {t: '8', s: ''''}
+  - {t: '9', s: '8'}
+  - {t: '0', s: '9'}
+  - {t: 'Sft+[', s: '='}
   - $$mdi:keyboard-tab$$
   - Q
   - W
@@ -26,7 +26,7 @@ layers:
   - I
   - O
   - P
-  - {t: '[', s: '{'}
+  - {t: ']', s: ']'}
   - $$mdi:apple-keyboard-caps$$
   - A
   - S
@@ -38,8 +38,8 @@ layers:
   - J
   - K
   - L
-  - {t: ;, s: ':'}
-  - {t: ']', s: '}'}
+  - {t: ;, s: ''''}
+  - {t: \, s: \}
   - $$mdi:apple-keyboard-shift$$
   - Z
   - X
@@ -52,7 +52,7 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
-  - {t: '''', s: '"'}
+  - {t: Sft+7, s: '2'}
   - $$mdi:volume-off$$
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-command$$
@@ -90,8 +90,8 @@ layers:
   - PG DN
   - PG UP
   - END
-  - {t: '-', s: _}
-  - {t: '=', s: +}
+  - {t: '-', s: INT1}
+  - {t: Sft+-, s: ;}
   - {t: '$$mdi:transfer$$', type: trans}
   - RGB HUI
   - RGB HUD
@@ -103,7 +103,7 @@ layers:
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-up-bold$$
   - $$mdi:arrow-right-bold$$
-  - {t: \, s: '|'}
+  - {t: INT3, s: INT3}
   - '@'
   - {t: '$$mdi:transfer$$', type: trans}
   - RGB OFF
