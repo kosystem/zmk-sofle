@@ -148,7 +148,7 @@ layers:
   - $$mdi:bluetooth-off$$
   - BT CLR ALL
   - {t: '$$mdi:transfer$$', type: trans}
-  - RGB ON
+  - RGB TOG
   - RGB HUI
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - RGB SAI
