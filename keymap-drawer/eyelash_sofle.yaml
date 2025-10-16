@@ -13,7 +13,7 @@ layers:
   - {t: '8', s: ''''}
   - {t: '9', s: '8'}
   - {t: '0', s: '9'}
-  - {t: 'Sft+[', s: '='}
+  - {t: '-', s: INT1}
   - $$mdi:keyboard-tab$$
   - Q
   - W
@@ -58,12 +58,12 @@ layers:
   - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-option$$
   - {t: '$$mdi:keyboard-space$$', h: layer1}
-  - $$mdi:backspace-reverse-outline$$
-  - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: '$$mdi:backspace$$', type: backspace}
+  - $$mdi:volume-off$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '-', s: INT1}
-  - $$mdi:backspace-reverse-outline$$
+  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - layer1
+  - {t: 'Sft+[', s: '='}
   - '2'
   layer1:
   - $$mdi:keyboard-esc$$
@@ -112,10 +112,10 @@ layers:
   - Ctl+V
   - '&mkp MB5'
   - {t: '$$mdi:transfer$$', type: trans}
-  - HOME
-  - PG DN
-  - PG UP
-  - END
+  - {t: '$$mdi:backspace$$', type: backspace}
+  - $$mdi:backspace-reverse-outline$$
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: INT3, s: INT3}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:volume-off$$
@@ -125,9 +125,9 @@ layers:
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:backspace-reverse-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   '2':
