@@ -161,7 +161,8 @@
         compatible = "zmk,behavior-mod-morph";
         label = "jis_SQT";
         #binding-cells = <0>;
-        bindings = <&kp LS(N7)>, <&kp N2>;
+        // bindings = <&kp LS(N7)>, <&kp N2>;
+        bindings = <&kp LS(N7)>, <&kp INT1>;
         mods = <(MOD_LSFT|MOD_RSFT)>;
         keep-mods = <(MOD_LSFT|MOD_RSFT)>;
     };
