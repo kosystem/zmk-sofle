@@ -184,11 +184,11 @@
 
         layer_1 {
             bindings = <
-&kp ESC     &kp F1        &kp F2        &kp F3        &kp F4       &kp F5           &trans      &kp F6        &kp F7      &kp F8      &kp F9     &kp F10    &trans
-&trans      &kp N1        &jis_N2       &kp N3        &kp N4       &kp N5           &trans      &jis_N6       &jis_N7     &jis_N8     &jis_N9    &jis_N0    &jis_EQUAL
-&trans      &trans        &mkp LCLK     &mkp MCLK     &mkp RCLK    &mkp MB4         &trans      &kp LEFT      &kp DOWN    &kp UP      &kp RIGHT  &kp F10    &kp LBKT
-&trans      &kp LC(Z)     &kp LC(X)     &kp LC(C)     &kp LC(V)    &mkp MB5         &trans      &kp BACKSPACE &kp DELETE  &trans      &trans     &jis_BSLH  &trans
-&kp C_MUTE  &trans        &trans        &trans        &trans       &trans           &trans      &trans        &trans      &trans      &trans     &trans
+&kp ESC     &kp F1        &kp F2        &kp F3        &kp F4       &kp F5           &trans      &kp F6        &kp F7        &kp F8      &kp F9     &kp F10    &trans
+&trans      &kp N1        &jis_N2       &kp N3        &kp N4       &kp N5           &trans      &jis_N6       &jis_N7       &jis_N8     &jis_N9    &jis_N0    &jis_EQUAL
+&trans      &trans        &mkp LCLK     &mkp MCLK     &mkp RCLK    &mkp MB4         &trans      &kp LEFT      &kp DOWN      &kp UP      &kp RIGHT  &kp F10    &kp LBKT
+&trans      &kp LC(Z)     &kp LC(X)     &kp LC(C)     &kp LC(V)    &mkp MB5         &trans      &kp BACKSPACE &kp BACKSPACE &kp DELETE  &trans     &jis_BSLH  &trans
+&kp C_MUTE  &trans        &trans        &trans        &trans       &trans           &trans      &trans        &trans        &trans      &trans     &trans
             >;
 
             display-name = "layer1";
